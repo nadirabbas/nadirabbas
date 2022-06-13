@@ -9,12 +9,22 @@
 <script lang="ts">
 import { defineComponent, onMounted } from "vue";
 import gsap from 'gsap'
+import { useEmitter } from '../composables/useEmitter'
 
 export default defineComponent({
   name: 'SplashLoader',
   setup() {
 
-    const pTimeline = gsap.timeline()
+    const emitter = useEmitter()
+
+    const pTimeline = gsap.timeline({
+      onComplete() {
+        emitter.emit('loading-complete')
+      },
+      onStart() {
+        emitter.emit('loading-start')
+      }
+    })
 
     onMounted(() => {
       const pBar = document.getElementById('p-bar')
@@ -31,10 +41,11 @@ export default defineComponent({
         .to(pBar, {
           width: "100%",
           duration: 1,
+
         })
         .to(".loader", {
           display: "none",
-          duration: .2,
+          duration: .1,
           opacity: 0
         })
 

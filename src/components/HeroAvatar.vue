@@ -11,24 +11,31 @@
 import { defineComponent, onMounted, nextTick } from "vue";
 import MorphingAvatar from "@/components/ui/MorphingAvatar.vue";
 import gsap from 'gsap'
+import { useEmitter } from "../composables/useEmitter";
 
 export default defineComponent({
   name: 'HeroAvatar',
   setup() {
+
+    const emitter = useEmitter()
+
+
+    const entryTimeline = gsap.timeline({
+      paused: true
+    })
+    emitter.on('loading-complete', () => entryTimeline.play())
 
     // Animate avatar entry
     onMounted(() => {
       const avatar = document.getElementById('avatar')
       if (!avatar) return;
 
+      emitter.on('loading-start', () => avatar.style.opacity = '0')
+
       // Entry animation
-      gsap.fromTo(avatar, {
-        y: -10,
-        opacity: 0
-      }, {
-        duration: .5,
+      entryTimeline.to(avatar, {
+        duration: 1,
         opacity: 1,
-        y: 0,
       })
 
       // Infinite bounc animation

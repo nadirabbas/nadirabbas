@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "gsap": "^3.10.4",
+    "mitt": "^3.0.0",
     "path": "^0.12.7",
     "tailwindcss": "^3.1.2",
     "vue": "^3.2.25",
