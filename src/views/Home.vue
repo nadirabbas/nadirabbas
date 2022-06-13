@@ -1,5 +1,5 @@
 <template>
-  <div class="home w-screen min-h-screen bg-accent select-none relative">
+  <div class="home w-screen min-h-screen bg-accent select-none relative font-nun">
     <Header class="fixed top-0 left-0" />
     <Hero />
     <Projects />
