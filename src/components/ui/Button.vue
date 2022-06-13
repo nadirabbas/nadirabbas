@@ -9,8 +9,6 @@
 <script lang="ts">
 import { computed, defineComponent, onMounted, PropType, ref, toRefs } from "vue";
 import gsap from 'gsap'
-import random from 'random'
-
 export default defineComponent({
   name: 'Button',
   props: {
