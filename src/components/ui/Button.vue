@@ -37,11 +37,7 @@ export default defineComponent({
 
     const flickerTimeline = gsap.timeline({
       repeatRefresh: true,
-      yoyo: true,
       repeat: -1,
-      onRepeat() {
-        this.duration(gsap.utils.random(.15, .9))
-      }
     });
 
     onMounted(() => {
@@ -52,7 +48,7 @@ export default defineComponent({
       flickerTimeline.fromTo(button.value, {
         opacity: .96
       }, {
-        duration: .15,
+        duration: .2,
         opacity: 1,
       })
     })
