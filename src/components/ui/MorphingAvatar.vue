@@ -19,11 +19,11 @@ export default defineComponent({
     },
     width: {
       type: String,
-      default: '186px'
+      default: '160px'
     },
     height: {
       type: String,
-      default: '186px'
+      default: '160px'
     }
   },
 })
