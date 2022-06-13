@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-start justify-between p-5 z-3 w-full">
     <SocialIcons />
-    <Button>HIRE ME</Button>
+    <Button flicker>HIRE ME</Button>
   </div>
 </template>
 

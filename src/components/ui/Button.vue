@@ -1,12 +1,15 @@
 <template>
-  <button class="button" v-on="$attrs" v-bind="$attrs" :class="classes">
+  <button class="button" ref="button" v-on="$attrs" @mouseenter="pauseFlicker" @mouseleave="resumeFlicker"
+    v-bind="$attrs" :class="classes">
     <slot />
   </button>
 </template>
 
 
 <script lang="ts">
-import { computed, defineComponent, PropType, toRefs } from "vue";
+import { computed, defineComponent, onMounted, PropType, ref, toRefs } from "vue";
+import gsap from 'gsap'
+import random from 'random'
 
 export default defineComponent({
   name: 'Button',
@@ -23,11 +26,45 @@ export default defineComponent({
       type: Boolean,
       default: false
     },
+    flicker: {
+      type: Boolean,
+      default: false
+    }
   },
   setup(props) {
-    const { variant, tile, flat } = toRefs(props)
+    const { variant, tile, flat, flicker } = toRefs(props)
+    const button = ref<null | HTMLButtonElement>(null)
+
+    const flickerTimeline = gsap.timeline({
+      repeatRefresh: true,
+      yoyo: true,
+      repeat: -1,
+      onRepeat() {
+        this.duration(gsap.utils.random(.15, .9))
+      }
+    });
+
+    onMounted(() => {
+      if (!flicker.value) return
+      if (!button.value) return
+
+      // Flicker effect
+      flickerTimeline.fromTo(button.value, {
+        opacity: .96
+      }, {
+        duration: .15,
+        opacity: 1,
+      })
+    })
 
     return {
+      button,
+      pauseFlicker() {
+        flickerTimeline.pause()
+      },
+      resumeFlicker() {
+        flickerTimeline.resume()
+      },
       variant, classes: computed(() => ({
         'font-nun py-[10px] px-[30px] cursor-pointer select-none text-sm': true,
         'rounded-[5px]': !tile.value,
