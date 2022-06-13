@@ -29,7 +29,7 @@ export default defineComponent({
 
     return {
       variant, classes: computed(() => ({
-        'font-nun py-[13px] px-[35px] cursor-pointer select-none text-sm': true,
+        'font-nun py-[10px] px-[30px] cursor-pointer select-none text-sm': true,
         'rounded-[5px]': !tile.value,
         'bg-white text-accent': variant.value === 'light',
         'shadow-primary-light hover:shadow-primary-light-big': variant.value === 'light' && !flat.value,
