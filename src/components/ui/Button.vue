@@ -1,8 +1,10 @@
 <template>
-  <button class="button" ref="button" v-on="$attrs" @mouseenter="pauseFlicker" @mouseleave="resumeFlicker"
-    v-bind="$attrs" :class="classes">
-    <slot />
-  </button>
+  <div>
+    <a ref="button" v-on="$attrs" v-bind="$attrs" :href="href" @mouseenter="pauseFlicker" @mouseleave="resumeFlicker"
+      :class="classes">
+      <slot />
+    </a>
+  </div>
 </template>
 
 
@@ -27,7 +29,8 @@ export default defineComponent({
     flicker: {
       type: Boolean,
       default: false
-    }
+    },
+    href: String
   },
   setup(props) {
     const { variant, tile, flat, flicker } = toRefs(props)
@@ -60,7 +63,7 @@ export default defineComponent({
         flickerTimeline.resume()
       },
       variant, classes: computed(() => ({
-        'font-nun py-[10px] px-[30px] cursor-pointer select-none text-sm': true,
+        'font-nun py-[10px] px-[30px] cursor-pointer select-none text-sm block': true,
         'rounded-[5px]': !tile.value,
         'bg-white text-accent': variant.value === 'light',
         'shadow-primary-light hover:shadow-primary-light-big': variant.value === 'light' && !flat.value,

@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-start justify-between p-5 z-3 w-full">
     <SocialIcons />
-    <Button flicker>HIRE ME</Button>
+    <Button href="https://www.upwork.com/freelancers/~0160a837184d1e92ab" target="_blank" flicker>HIRE ME</Button>
   </div>
 </template>
 
