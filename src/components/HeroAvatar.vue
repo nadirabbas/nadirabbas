@@ -20,6 +20,8 @@ export default defineComponent({
     onMounted(() => {
       const avatar = document.getElementById('avatar')
       if (!avatar) return;
+
+      // Entry animation
       gsap.fromTo(avatar, {
         y: -10,
         opacity: 0
@@ -28,6 +30,18 @@ export default defineComponent({
         opacity: 1,
         y: 0,
       })
+
+      // Infinite bounc animation
+      gsap.fromTo(
+        avatar,
+        { y: -2 },
+        {
+          yoyo: true,
+          repeat: -1,
+          y: 2,
+          duration: 2,
+        },
+      );
     })
 
 
