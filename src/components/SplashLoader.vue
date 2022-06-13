@@ -33,11 +33,9 @@ export default defineComponent({
           duration: 1,
         })
         .to(".loader", {
-          opacity: 0,
-          duration: .2
-        })
-        .to('.loader', {
-          display: 'none'
+          display: "none",
+          duration: .2,
+          opacity: 0
         })
 
     })
