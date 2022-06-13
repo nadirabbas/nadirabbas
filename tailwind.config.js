@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         accent: "#111",
+        "accent-fg": "#222",
       },
       fontFamily: {
         fond: ["Fondamento", "cursive"],

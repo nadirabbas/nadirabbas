@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col social-icons">
-    <a :href="item.link" class="block flex items-center group mb-4 transform transition-transform hover:translate-x-1.5"
+    <a :href="item.link" class="block flex items-center group py-2 transform transition-transform hover:translate-x-1.5"
       target="_blank" v-for="item in items" :key="item.link">
-      <img :src="`/social-icons/${item.icon}`" class="w-[25px] social-icon" />
+      <img :src="`/social-icons/${item.icon}`" class="w-[27px] social-icon" />
 
       <span class="opacity-0 group-hover:opacity-100 text-white transition-opacity ml-4">{{ item.name }}</span>
     </a>
@@ -28,7 +28,7 @@ export default defineComponent({
           icon: 'stackoverflow.svg'
         },
         {
-          name: 'YouTube',
+          name: 'YouTube Channel',
           link: 'https://www.youtube.com/channel/UC3bsw_BB-f9GChhB_bEFqzg',
           icon: 'youtube.svg'
         },
