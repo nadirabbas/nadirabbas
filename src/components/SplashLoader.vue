@@ -36,6 +36,9 @@ export default defineComponent({
           opacity: 0,
           duration: .2
         })
+        .to('.loader', {
+          display: 'none'
+        })
 
     })
 
