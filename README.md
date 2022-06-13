@@ -1,16 +1,28 @@
-# Vue 3 + TypeScript + Vite
+<h1 align="center">Hi 👋, I'm Nadir Abbas</h1>
+<h3 align="center">A passionate Full-stack developer from Pakistan</h3>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=nadirabbas&label=Profile%20views&color=0e75b6&style=flat" alt="nadirabbas" /> </p>
 
-## Recommended IDE Setup
+- 🔭 I was the top collborator on [Dogehouse](https://github.com/benawad/dogehouse/graphs/contributors)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- 🌱 I’m currently learning **Microservices architecture**
 
-## Type Support For `.vue` Imports in TS
+- 👨‍💻 All of my projects are available at [nadirabbas.github.io](https://nadirabbas.github.io)
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+- 💬 Ask me about **React, Vue, Node, Laravel**
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+- 📫 How to reach me **nadirabbasforwork@gmail.com**
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+- ⚡ Fun fact **I am kinda good at Cricket**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/nadir2k" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="nadir2k" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/9937150" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="9937150" height="30" width="40" /></a>
+<a href="https://fb.com/nadir2k" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="nadir2k" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/uc3bsw_bb-f9gchhb_befqzg" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="uc3bsw_bb-f9gchhb_befqzg" height="30" width="40" /></a>
+</p>
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=jamesql&theme=gruvbox&title=MultiLanguage,Commit,Repositories,Issues)](https://github.com/ryo-ma/github-profile-trophy)
+
+
