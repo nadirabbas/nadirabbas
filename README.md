@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nadirabbas&label=Profile%20views&color=0e75b6&style=flat" alt="nadirabbas" /> </p>
 
-- 🔭 I was the top collborator on [Dogehouse](https://github.com/benawad/dogehouse/graphs/contributors)
+- 🔭 I was among the top collborators on [Dogehouse](https://github.com/benawad/dogehouse/graphs/contributors)
 
 - 🌱 I’m currently learning **Microservices architecture**
 
