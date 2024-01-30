@@ -5,7 +5,7 @@
 
 - 🔭 I was among the top collborators on [Dogehouse](https://github.com/benawad/dogehouse/graphs/contributors)
 
-- 🌱 I’m currently learning **Microservices architecture**
+- 🌱 I’m currently learning **Computer Networks**
 
 - 👨‍💻 All of my projects are available at [nadirabbas.github.io](https://nadirabbas.github.io)
 
