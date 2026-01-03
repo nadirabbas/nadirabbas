@@ -5,7 +5,7 @@
 
 - 🔭 I was among the top collborators on [Dogehouse](https://github.com/benawad/dogehouse/graphs/contributors)
 
-- 🌱 I’m currently learning **Computer Networks**
+- 🌱 I’m currently learning **Machine Learning**
 
 - 👨‍💻 All of my projects are available at [nadirabbas.github.io](https://nadirabbas.github.io)
 
