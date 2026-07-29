@@ -1,28 +1,28 @@
 <h1 align="center">Hi 👋, I'm Nadir Abbas</h1>
-<h3 align="center">A passionate Full-stack developer from Pakistan</h3>
+<h3 align="center">Full-Stack Web Developer & Open Source Creator</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nadirabbas&label=Profile%20views&color=0e75b6&style=flat" alt="nadirabbas" /> </p>
+<br>
 
-- 🔭 I was among the top collborators on [Dogehouse](https://github.com/benawad/dogehouse/graphs/contributors)
+### 🚀 Featured Side-Project
+- **[YouTube Comment Kit](https://chromewebstore.google.com/detail/youtube-comment-kit-%E2%80%94-com/pfgcilgpjedghceoheogpibogofhlbke)** — A Chrome extension designed to enhance the YouTube commenting experience.
 
-- 🌱 I’m currently learning **Machine Learning**
+---
 
-- 👨‍💻 All of my projects are available at [nadirabbas.github.io](https://nadirabbas.github.io)
+### 💻 About Me
+- 🔭 Former top contributor on [Dogehouse](https://github.com/benawad/dogehouse/graphs/contributors).
+- 🧠 Actively exploring Machine Learning and system architecture.
+- 🛠️ Core Stack: **React, Vue, Node.js, Laravel**.
+- 💼 Hire me on **[Upwork](https://www.upwork.com/freelancers/~0160a837184d1e92ab)**.
+- 🌐 Personal site & contact: [nadirabbas.github.io](https://nadirabbas.github.io).
+- ✉️ Get in touch: [nadirabbasforwork@gmail.com](mailto:nadirabbasforwork@gmail.com).
 
-- 💬 Ask me about **React, Vue, Node, Laravel**
+---
 
-- 📫 How to reach me **nadirabbasforwork@gmail.com**
-
-- ⚡ Fun fact **I am kinda good at Cricket**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/nadir2k" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="nadir2k" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/9937150" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="9937150" height="30" width="40" /></a>
-<a href="https://fb.com/nadir2k" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="nadir2k" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/uc3bsw_bb-f9gchhb_befqzg" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="uc3bsw_bb-f9gchhb_befqzg" height="30" width="40" /></a>
+### 🌐 Connect With Me
+<p>
+  <a href="https://www.upwork.com/freelancers/~0160a837184d1e92ab" target="_blank"><img src="https://img.shields.io/badge/Upwork-6BR24F?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork" /></a>
+  <a href="https://twitter.com/nadir2k" target="_blank"><img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" /></a>
+  <a href="https://stackoverflow.com/users/9937150" target="_blank"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" /></a>
+  <a href="https://fb.com/nadir2k" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="https://www.youtube.com/@nadir2k" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube" /></a>
 </p>
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=jamesql&theme=gruvbox&title=MultiLanguage,Commit,Repositories,Issues)](https://github.com/ryo-ma/github-profile-trophy)
-
-
