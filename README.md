@@ -9,7 +9,7 @@
 ---
 
 ### 💻 About Me
-- 🔭 Former top contributor on [Dogehouse]([https://github.com/benawad/dogehouse/graphs/contributors](https://github.com/benawad/dogehouse/graphs/contributors?all=1)).
+- 🔭 Former top contributor on [Dogehouse](https://github.com/benawad/dogehouse/graphs/contributors](https://github.com/benawad/dogehouse/graphs/contributors?all=1)).
 - 🧠 Actively exploring Machine Learning and system architecture.
 - 🛠️ Core Stack: **React, Vue, Node.js, Laravel**.
 - 💼 Hire me on **[Upwork](https://www.upwork.com/freelancers/~0160a837184d1e92ab)**.
